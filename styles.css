@@ -1,0 +1,110 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Title styling */
+  .title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  /* Fieldset and label styling */
+  fieldset {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  /* Input styling */
+  #attackValueBox {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  #calculate {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #calculate:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Results styling */
+  #values {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+    
+    .title {
+      font-size: 2.5em; /* Increase title size for clarity */
+    }
+    
+    fieldset {
+      max-width: 100%;
+      padding: 10px;
+      margin: 10px auto;
+    }
+    
+    #attackValueBox {
+      padding: 12px;
+      font-size: 18px;
+    }
+    
+    #calculate {
+      max-width: 100%;
+      padding: 16px;
+      font-size: 20px;
+    }
+    
+    #values {
+      max-width: 100%;
+      font-size: 2em; /* Increase result text size */
+      padding: 20px;
+      margin: 20px auto;
+    }
+  }
