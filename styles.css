@@ -103,7 +103,7 @@ body {
     
     #values {
       max-width: 100%;
-      font-size: 2em; /* Increase result text size */
+      font-size: 3em; /* Increase result text size */
       padding: 20px;
       margin: 20px auto;
     }
